@@ -2,5 +2,9 @@
 
 .lebron-photo {
   margin: 10px;
-  max-width: 500px;
+  max-width: 400px;
+}
+
+#my-portrait {
+    width: 500px;
 }
