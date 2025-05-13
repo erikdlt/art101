@@ -1,0 +1,12 @@
+.text p {
+    color: aqua;
+    text-shadow: 2px 2px orchid;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px white;
+    display: inline-block;
+}
+
+.newText p {
+    text-indent: right;
+}
