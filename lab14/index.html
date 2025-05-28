@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>Lab 14 - Debugging Tools and Strategies</title>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="js/lab.js" DEFER></script>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	
+	
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<main id="content">
+		<section>
+			<h1>Lab 14 - Debugging Tools and Strategies </h1>
+			<div id="challenge" class="minor-section">
+					<h2>Challenge</h2>
+					<p>The challenge of this lab was to debug old labs. </p>
+			</div>
+
+			<div id="problems" class="minor-section">
+					<h2>Problems</h2>
+					<p>I found the old problems that I had, and made sure to fix them. </p>
+			</div>
+
+
+			<div id="results" class="minor-section">
+					<h2>Results</h2>
+					<p>The results are below. </p>
+			</div>
+
+
+            <div id="output" class="minor-section">
+                <h2>Debug</h2>
+				<img src="img/lab14-1.png" width="500" height="300">
+				<p>This code is from Lab 7, and the issue was that I needed to add quotes to the nameArraySorted, so that it would stop printing out commas with the changed array. I didn't notice this issue before, so it was good that I caught it.</p>
+                
+				<img src="img/lab14-2.png" width="500" height="300" >
+				<img src="img/lab14-3.png" width="500" height="300">
+				<img src="img/lab14-4.png" width="700" height="300">
+				<p>This code and output is from Lab 2, where I couldn't figure out why my text border was moving off the page. Through debugging, I found that I had duplicate ids named "content", which were breaking the code. Once I caught this, I gave them different names and created a new css section to style the new id I made. This corrected the issue.</p>
+
+            </div>
+
+        
+
+
+		</section>
+		
+	</main>
+</body>
+</html>

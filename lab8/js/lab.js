@@ -7,7 +7,7 @@ function multiplyNumber(x) {
     var results = (x*2);
     return results;
 };
-console.log("4 multiplied by 2: " ,multiplyNumber(4));
+console.log("4 multiplied by 2: ",multiplyNumber(4));
 
 
 // define array
