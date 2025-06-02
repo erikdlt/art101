@@ -8,7 +8,7 @@
 */
 
 const ajaxObj = {
-    url: "http://yerkee.com/api/fortune",
+    url: "https://zenquotes.io/api/quotes",
     //data: {}
     type: "GET",
     dataType: "json"
@@ -22,10 +22,10 @@ $("#activate").click(function() {
         console.log("Success!");
         console.log(data);
         // extract the fortune
-        let fortune = data.fortune;
+        let quote = data.quote;
 
         //insert output
-        $("#output").html("<h1>" + fortune);
+        $("#output").html("<h1>" + quote);
     })
 
     .fail(function(xhr, status, errorThrown) {
