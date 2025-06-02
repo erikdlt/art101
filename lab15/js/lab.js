@@ -8,7 +8,7 @@
 */
 
 const ajaxObj = {
-    url: "https://zenquotes.io/api/quotes",
+    url: "https://pokeapi.co/api/v2/pokemon/diglett",
     //data: {}
     type: "GET",
     dataType: "json"
@@ -21,11 +21,11 @@ $("#activate").click(function() {
     .done(function(data) {
         console.log("Success!");
         console.log(data);
-        // extract the fortune
-        let quote = data.quote;
+        // extract the pokemon info
+        let pokemon = data.pokemon;
 
         //insert output
-        $("#output").html("<h1>" + quote);
+        $("#output").html("<h1>" + pokemon);
     })
 
     .fail(function(xhr, status, errorThrown) {
