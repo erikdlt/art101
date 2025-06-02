@@ -36,7 +36,7 @@ $("#activate").click(function() {
             <p><strong>Type:</strong> ${type}</p>
             <p><strong>Weight:</strong> ${weight}</p>
         `;
-        $("#output").html("<h1>" + pokemon);
+        $("#output").html(output);
     })
 
     .fail(function(xhr, status, errorThrown) {
