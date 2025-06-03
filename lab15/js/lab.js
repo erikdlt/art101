@@ -28,7 +28,7 @@ $("#activate").click(function() {
         let weight = data.weight;
         let imageUrl = data.sprites.front_default;
 
-        //insert output
+        //insert output, string interpolation
         let output = `
         <h1>${name.toUpperCase()}</h1>
             <img src="${imageUrl}" alt="${name}">
@@ -38,7 +38,7 @@ $("#activate").click(function() {
         `;
         $("#output").html(output);
     })
-
+// if it fails, print message
     .fail(function(xhr, status, errorThrown) {
         console.log(errorThrown + "Status:" + status );
     });
