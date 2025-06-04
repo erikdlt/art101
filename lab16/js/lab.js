@@ -12,7 +12,7 @@ const ajaxObj = {
     url: "https://xkcd.com/701/info.0.json",
 //    data: {}
     type: "GET",
-    dataType: "JSON"
+    dataType: "json"
 }
 
 // call ajax
@@ -29,7 +29,7 @@ $.ajax(ajaxObj)
 
     // create elements
     $("#output").html(`<h2>${title}</h2>`);
-    $("#output").append(`<img src='${img}'`);
+    $("#output").append(`<img src='${img}'/>`);
     $("#output").append(`<p class='alt'>${alt}</p>`);
     
 
