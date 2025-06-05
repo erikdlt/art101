@@ -9,7 +9,7 @@
 
 // ajax obj
 const ajaxObj = {
-    url: "https://xkcd.com/701/info.0.json",
+    url: "https://api.allorigins.win/raw?url=https://xkcd.com/707/info.0.json",
 //    data: {}
     type: "GET",
     dataType: "json"
